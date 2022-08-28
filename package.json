@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue-template-compiler": "^2.7.10",
+    "vuepress-theme-reco": "^1.6.14",
+    "watchman": "^1.0.0"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
